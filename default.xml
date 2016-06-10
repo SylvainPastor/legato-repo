@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote  name="github"
+             fetch="https://github.com/legatoproject" />
+
+    <default remote="github"
+             revision="refs/heads/master" 
+             sync-c="true" />
+
+    <!-- Framework -->
+    <project path="legato" name="legato-af" revision="refs/tags/15.10.01" />
+
+    <!-- Doc -->
+    <project path="doc"  name="legato-docs" revision="refs/heads/gh-pages" clone-depth="1" />
+
+    <!-- Samples -->
+    <project path="samples/helloworld"  name="legato-helloworld" />
+</manifest>
