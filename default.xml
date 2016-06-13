@@ -9,7 +9,7 @@
              sync-c="true" />
 
     <!-- Framework -->
-    <project path="legato" name="legato-af" revision="refs/tags/15.10.01" />
+    <project path="legato" name="legato-af" revision="refs/tags/16.04.0" />
 
     <!-- Doc -->
     <project path="doc"  name="legato-docs" revision="refs/heads/gh-pages" clone-depth="1" />
